@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#navbarSupportedContent ul li a:hover{ /* "hover" faz com que quando selecionados pelo mouse a aparência mude como foi comandado */
+    color: rgb(0, 100, 194); /* muda a cor da fonte quando a palavra é selecionada */
+    /* tipos de ponteiro: crosshair, wait, pointer, etc */
+    cursor: pointer; /* "cursor" muda o tipo de ponteiro */
+}
+
+#pag_home{
+    background-color: cornflowerblue;
+    font-family: 'Nunito', sans-serif;
+}
+
+#pag_contatos{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+}
+
+#pag_quemsomos{
+    background-color: rgb(122, 72, 56);
+    font-family: 'Nunito', sans-serif;
+}
+
+#pag_galeria{
+    background-color: rgb(123, 255, 204);
+    font-family: 'Nunito', sans-serif;
+}
+
+#menu ul{
+    margin: 0;
+    list-style: none;
+    background-color: black;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    /* top right bottom left */
+    padding: 10px 10px;
+}
+
+#menu ul li a:hover{ /* "hover" faz com que quando selecionados pelo mouse a aparência mude como foi comandado */
+    color: skyblue; /* muda a cor da fonte quando a palavra é selecionada */
+    /* tipos de ponteiro: crosshair, wait, pointer, etc */
+    cursor: pointer; /* "cursor" muda o tipo de ponteiro */
+}
+
+img{
+    max-width: 200%;
+    max-height: 2000%;
+}
+
+/* Imagem principal */
+#centro {
+    /* Posicionando a div em relação ao tamanho da página */
+    top: 20%;
+    left: 50%;
+    /* Dimensionando o tamanho da div */
+    width: 500px;
+    height: 500px;
+    /* Ajustando as margens externas da div */
+    margin-top: 1%;
+    margin-left: 22%;
+}
