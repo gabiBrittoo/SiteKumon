@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+#navbarSupportedContent ul li a:hover{ /* "hover" faz com que quando selecionados pelo mouse a aparência mude como foi comandado */
+    color: rgb(0, 100, 194); /* muda a cor da fonte quando a palavra é selecionada */
+    /* tipos de ponteiro: crosshair, wait, pointer, etc */
+    cursor: pointer; /* "cursor" muda o tipo de ponteiro */
+}
+
+.azulDoCabecalho{
+    background-color: rgb(16, 64, 177);
+}
